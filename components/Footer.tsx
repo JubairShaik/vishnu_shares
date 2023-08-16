@@ -26,11 +26,6 @@ const FooterColumn = ({ title, links }: ColumnProps) => (
     </div>
 );
 
-
-
-
-
-
 const Footer = () => (
     <section className="flexStart flex-col paddings w-full gap-20  ">
         <div className="flex flex-wrap md:justify-between justify-center items-start gap-12 w-full">
