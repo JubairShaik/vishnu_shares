@@ -52,7 +52,7 @@ const ProfileMenu = ({ session }: Props) => {
                 >
                     <Menu.Items
                         static
-                        className="flexStart flex-col absolute right-1/2 translate-x-1/2 mt-3 p-7 sm:min-w-[300px] rounded-xl bg-white border border-nav-border shadow-menu"
+                        className="flexStart flex-col absolute right-1/2 translate-x-1/2 mt-3 p-7 sm:min-w-[300px] rounded-xl bg-slate-800 border border-nav-border shadow-menu"
                         onMouseLeave={() => setOpenModal(false)}
                     >
                         <div className="flex flex-col items-center gap-y-4">

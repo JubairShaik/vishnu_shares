@@ -88,12 +88,13 @@ const Navbar = async () => {
       
       <div className='flex-1 flexStart gap-10'>
         <Link href='/'>
-          <Image
+          {/* <Image
             src='/logo.svg'
             width={116}
             height={43}
             alt='logo'
-          />
+          /> */}
+           <h3 className="text-[1.1rem] sm:text-[1.5rem] font-bold text-purple-600">Vishnu Shares</h3>
         </Link>
         <ul className='xl:flex hidden text-small gap-7'>
           {NavLinks.map((link) => (
