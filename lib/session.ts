@@ -40,7 +40,7 @@ export const authOptions: NextAuthOptions = {
         return session;
     
     },
-    async signIn({user}:{user: User }) {
+    async signIn({user}) {
 
 
       //  Get The User if the User Exist 
