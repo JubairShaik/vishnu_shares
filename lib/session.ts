@@ -5,7 +5,7 @@ import { getServerSession } from "next-auth/next";
 import { NextAuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
 import  AdapterUser  from "next-auth";
-import jsonwebtoken from "jsonwebtoken"
+// import jsonwebtoken from "jsonwebtoken"
 import { createUser, getUser } from "./actions";
 
 import {JWT} from "next-auth/jwt"
