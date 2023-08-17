@@ -4,7 +4,7 @@
 import { getServerSession } from "next-auth/next";
 import { NextAuthOptions } from "next-auth";
 import GoogleProvider from "next-auth/providers/google";
-import { AdapterUser } from "next-auth";
+import  AdapterUser  from "next-auth";
 import jsonwebtoken from "jsonwebtoken"
 import { createUser, getUser } from "./actions";
 
@@ -40,7 +40,7 @@ export const authOptions: NextAuthOptions = {
         return session;
     
     },
-    async signIn({user}:{user: AdapterUser | User }) {
+    async signIn({user}:{user: User }) {
 
 
       //  Get The User if the User Exist 
@@ -70,6 +70,8 @@ export const authOptions: NextAuthOptions = {
   },
   
 };
+
+
 
 export async function getCurrentUser() {
   const session = await getServerSession(authOptions);
