@@ -20,7 +20,7 @@ const AuthProviders = () => {
     if (providers) {
         return (
             <div>
-                {Object.values(providers).map((provider:Provider , index) => (
+                {Object.values(providers).map((provider:any , index) => (
                     
                         <CustomButton
                             key={index}
